@@ -1,8 +1,20 @@
-$blanco: #ffffff;
-$rojo: rgba(255,0,0,1);
-
 body {
-    margin: 0;
-    background-color: $blanco ;
-    color: $rojo;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background: #8f57fd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
