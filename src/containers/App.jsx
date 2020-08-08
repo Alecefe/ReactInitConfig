@@ -25,7 +25,8 @@ const App = () => {
             <Categories title={category}>
               <Carousel>
                 {videos[category].map(video =>
-                  <CarouselItem key={video.id} {...video} />)}
+                  <CarouselItem key={video.id} {...video} />
+                )}
               </Carousel>
             </Categories>
           ))}
